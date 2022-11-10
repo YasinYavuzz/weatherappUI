@@ -1,0 +1,41 @@
+name: weatherappui
+description: A new Flutter project.
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # kullanılacak paketler
+  flutter_svg: ^1.1.6
+  font_awesome_flutter: ^10.2.1
+  http: ^0.13.5
+  google_fonts: ^3.0.1
+  responsive_sizer: ^3.1.1
+  hive: ^2.2.3
+  percent_indicator: ^4.2.2
+
+
+ 
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+  
